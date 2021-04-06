@@ -55,8 +55,8 @@ count = 0
 while True:
     if count == 15:
         count = 0
-        print("sleeping for 20 seconds")
-        time.sleep(20)
+        print("sleeping for 2 min.")
+        time.sleep(125)
     count += 1
     time.sleep(randint(3, 8))
     url = f"https://presearch.org/extsearch?term={rw.random_word()}"
